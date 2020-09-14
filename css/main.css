@@ -89,6 +89,10 @@ section a {
   margin: 1.5rem 0;
 }
 
+footer {
+  text-align: center;
+}
+
 @media only screen and (min-width: 38em) {
   h1 {
     text-align: left;
@@ -100,16 +104,20 @@ section a {
     grid-template-rows: 1fr;
   }
 
-  h2 {
-    font-size: 2rem
-  }
-
   .first-section {
     max-width: 30em;
     margin: auto;
     padding: 0;
   }
 
+  .first-section h2 {
+    font-size: 2rem;
+  }
 
+  section ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
 
 }
