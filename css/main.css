@@ -114,12 +114,17 @@ i {
 
   h1 {
     text-align: left;
+    margin-bottom: 1.5rem;
   }
 
   .banner-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+  }
+
+  nav ul {
+    padding-top: 2rem;
   }
 
   .first-section {
