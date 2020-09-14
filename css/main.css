@@ -71,7 +71,7 @@ p {
 
 .first-section h2, .first-section p {
   padding: 0;
-  margin: 1.5rem;
+  margin: 1rem;
   font-weight: normal;
 }
 
@@ -94,7 +94,7 @@ section a {
   border-radius: .3rem;
   padding: .5em 1em .6em;
   display: flex;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0;
 }
 
 footer {
