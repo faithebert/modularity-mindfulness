@@ -114,7 +114,8 @@ i {
 
   h1 {
     text-align: left;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+    margin-left: .5rem;
   }
 
   .banner-text {
@@ -135,6 +136,10 @@ i {
 
   .first-section h2 {
     font-size: 2rem;
+  }
+
+  .text p {
+    padding-top: 1rem;
   }
 
   section ul {
